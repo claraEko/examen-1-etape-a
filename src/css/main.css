@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: heebo;
 }
 
 a {
@@ -12,4 +11,133 @@ a {
 img,
 video {
   display: block;
+}
+.flexbox {
+  display: flex;
+  width: 1728px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.pA {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #eae2b7;
+  width: 1728px;
+}
+.A1,
+.A2,
+.A3 {
+  border: 1px solid #d62828;
+  background: #f77f00;
+  padding: 35px;
+  color: #fff;
+  font-family: Heebo;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  width: 600px;
+}
+.pB {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background: #eae2b7;
+  gap: 30px;
+  align-items: center;
+  width: 1728px;
+}
+.B1,
+.B2,
+.B3 {
+  border: 1px solid #d62828;
+  background: #f77f00;
+  padding: 35px;
+  color: #fff;
+  font-family: Heebo;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+}
+.pC {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+
+  gap: 190px;
+  background: #eae2b7;
+  width: 1728px;
+  padding-left: 96px;
+  padding-right: 97px;
+}
+.C1,
+.C2,
+.C3,
+.C4 {
+  border: 1px solid #d62828;
+  background: #f77f00;
+  padding: 35px;
+  color: #fff;
+  font-family: Heebo;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+}
+.pD {
+  display: flex;
+  flex-direction: row-reverse;
+
+  background-color: #eae2b7;
+  width: 1728px;
+  gap: 30px;
+  padding-right: 30px;
+  padding-top: 166;
+  padding-bottom: 167;
+}
+.D1,
+.D2,
+.D3 {
+  border: 1px solid #d62828;
+  background: #f77f00;
+  padding: 35px;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  color: #fff;
+  font-family: Heebo;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+}
+.pE {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1728px;
+  background-color: #eae2b7;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.E1,
+.E2,
+.E3,
+.E4 {
+  border: 1px solid #d62828;
+  background: #f77f00;
+  padding: 35px;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  color: #fff;
+  font-family: Heebo;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  width: 864px;
 }
